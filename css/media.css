@@ -1,0 +1,154 @@
+/* Base styles here */
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        margin-left: 180px;
+    }
+
+    .navbar-toggler i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .social a {
+        margin: 0 4px;
+        /* display: table-column; */
+        display: flex !important;
+
+    }
+
+    .slide img {
+        width: 100%;
+    }
+
+    .slide h1 {
+        font-size: 65px;
+    }
+
+    .right-info h3 {
+        font-size: 30px;
+    }
+    .content p{
+        width: 400px;
+    }
+    .social{
+        display: none;
+    }
+    .game, .feature {
+        width: 100%; /* Make game and feature boxes take full width */
+    }
+    .fosupport{
+        width: 390px;
+
+    }
+    .fosupport input{
+        width: 350px !important;
+    }
+    .fosupport textarea{
+        width: 350px ;
+    }
+    .fosupport button{
+        display: block;
+    }
+    .from{
+        width: 100%;
+    }
+    #contact label{
+        width: 100%;
+    }
+    #contact input,
+textarea {
+    width:100%;
+}
+
+    .gamebox, .feabox {
+        flex-direction: column; /* Stack game and feature boxes vertically */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack footer content vertically */
+        padding: 20px 20px;
+        text-align: center;
+    }
+    form{
+    width: 380px;
+   }
+
+    .footlogo {
+        margin: 20px 0; /* Add margin for spacing */
+    }
+    .abox1{
+        flex-wrap: wrap;
+        width: 380px;
+    }
+    .abox1 .aimage img{
+        width: 430px;
+         
+    }
+    .apara p{
+        width: 400px;
+        display: block;
+    }
+    .abox2{
+        flex-wrap: wrap;
+        width: 380px;
+    }
+    .abox2 .aimage img{
+        width: 430px;
+        
+    }
+    .apara p{
+        width: 400px;
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    :root {
+        font-size: 50%; /* Reduce base font size for mobile */
+    }
+
+    .container {
+        width: 100%; /* Make the container full width */
+        padding: 0 20px; /* Add some padding on the sides */
+    }
+
+    .d-flex {
+        flex-direction: column; /* Stack flex items vertically */
+    }
+
+    .header {
+        flex-direction: column; /* Stack logo, social links, and navbar vertically */
+        align-items: center; /* Center-align items */
+        padding: 15px 5%; /* Reduce padding */
+    }
+
+    .logo img {
+        width: 120px; /* Reduce logo size */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .social {
+        margin: 20px 0; /* Add margin above and below for spacing */
+    }
+    
+
+    .navbar a {
+        font-size: 16px; /* Reduce font size */
+        margin: 5px 10px; /* Adjust margin */
+    }
+    .slide h1 {
+        font-size: 85px;
+    }
+     h3{
+        font-size: 45px;
+    }
+
+    
+}
